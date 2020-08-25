@@ -6,19 +6,12 @@
         <!-- 我是侧边栏 -->
       </el-aside>
       <el-container>
-        <el-header>
-          <!-- <zgz-header></zgz-header> -->
-        </el-header>
         <el-main>
           <tabs></tabs>
           <!-- 我是tabs组件 -->
         </el-main>
       </el-container>
     </el-container>
-    <!-- <div id="nav"> -->
-      <!-- <router-link to="/">Home</router-link>| -->
-    <!-- </div> -->
-    <!-- <router-view /> -->
   </div>
 </template>
 
@@ -37,7 +30,7 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   color: #2c3e50;
 }
 
